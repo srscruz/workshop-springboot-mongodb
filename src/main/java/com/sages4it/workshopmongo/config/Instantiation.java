@@ -16,7 +16,7 @@ public class Instantiation implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		//userRepository.deleteAll();
+		// userRepository.deleteAll();
 		
 		User u1 = new User(null, "Carlos Alberto da Silva", "carlossilva@gmail.com");
 		User u2 = new User(null, "Welington Gonçalves de Souza", "wsouza@gmail.com");
